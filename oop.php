@@ -42,12 +42,12 @@ class Member {
 
     public function borrowBook(Book $book) {
         $book->borrowBook();
-        echo "{$this->name} has borrowed '{$book->getTitle()}'.\n";
+        // echo "{$this->name} has borrowed '{$book->getTitle()}'.\n";
     }
 
     public function returnBook(Book $book) {
         $book->returnBook();
-        echo "{$this->name} has returned '{$book->getTitle()}'.\n";
+        // echo "{$this->name} has returned '{$book->getTitle()}'.\n";
     }
 }
 
